@@ -53,3 +53,4 @@ Python版本展示了更多的解决思路。由于Python的字符串处理非�
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         return str(x) == str(x)[::-1]
+    
